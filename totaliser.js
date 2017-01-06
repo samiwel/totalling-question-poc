@@ -22,6 +22,7 @@ function answerChanged() {
 
 function updateTotal(value) {
   document.getElementById('total').value = value
+  document.getElementById('subtotal').innerHTML = value + '%'
   var indicator = document.getElementById('total-container')
   if (value > 100 || value < 0)  {
     // bad
