@@ -1,0 +1,50 @@
+body, html {
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.field-type {
+  display: inline-block;
+  background: #ddd;
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+.answer {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 120px;
+}
+
+#total-container {
+  width: 180px;
+  padding: 20px;
+}
+
+progress[value] {
+  width: 100%;
+}
+
+.bad {
+  background-color: #ffcccc;
+  transition: 0.5s ease-in-out;
+}
+
+.good {
+  background-color: #D4EFDF;
+  transition: 0.5s ease-in-out;
+}
+
+.input-addon {
+  display: flex;
+}

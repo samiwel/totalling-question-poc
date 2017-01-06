@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Totaliser Question Proof of Concept</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Enter some percentages that add up to 100%.</h2>
+
+    <div id="total-container">
+    <progress id="total" max="100" value="0"></progress>
+
+    <form id="totaliser">
+
+      <div class="answer">
+        <label for="answer_1">Answer 1</label>
+        <div class="input-addon">
+        <input name="answer_1" type="number" min="0" max="100" class="percentage" onchange="answerChanged();" /><span class="field-type">%</span>
+      </div>
+      </div>
+
+      <div class="answer">
+        <label for="answer_2">Answer 2</label>
+        <div class="input-addon"><input name="answer_2" type="number" min="0" max="100" class="percentage" onchange="answerChanged();" /><span class="field-type">%</span></div>
+      </div>
+
+      <div class="answer">
+        <label for="answer_3">Answer 3</label>
+        <div class="input-addon"><input name="answer_3" type="number" min="0" max="100" class="percentage" onchange="answerChanged();" /><span class="field-type">%</span></div>
+      </div>
+
+      <div class="answer">
+        <label for="answer_4">Answer 4</label>
+        <div class="input-addon"><input name="answer_4" type="number" min="0" max="100" class="percentage" onchange="answerChanged();" /><span class="field-type">%</span></div>
+      </div>
+
+    </form>
+
+</div>
+  <script lang="javascript" src="totaliser.js"></script>
+
+  </body>
+</html>
